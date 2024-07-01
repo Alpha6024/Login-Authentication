@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="code.css">
+</head>
+
+<body>
+    <div id="1block" style="display:block">
+        <div id="block1" class=" bg-slate-800 grid place-items-center h-[100vh]">
+            <div class="bg-white h-[65vh] w-[65vw] rounded-xl flex">
+                <div class="max-[879px]:hidden h-auto w-[28vw] grid place-items-center">
+                    <div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Sign in</div>
+                        <div class="text-center text-[1 rem] font-serif">use your account</div>
+                    </div>
+                    <div>
+                        <img class="h-64 mx-auto " src="/images/img4.jpg">
+                    </div>
+                </div>
+                <div class="m-auto justify-items-center grid h-auto w-full min-[879px]:w-[30vw]">
+                    <div class="text-center">
+                        <div class="block min-[879px]:hidden mb-4">
+                            <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Sign in</div>
+                            <div class="text-center text-[1 rem] font-serif">use your account</div>
+                        </div>
+                        <input id="username"
+                            class="border-blue-500 border-[2px] rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="enter username" type="text">
+                        <p class="text-center min-[879px]:text-left text-xs font-serif mb-2"><a class="text-blue-800" href="abc">forget
+                                username?</a>
+                        </p>
+                        <input id="key"
+                            class="border-blue-500 border-[2px] rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="enter password" type="password">
+                        <p class="text-center min-[879px]:text-left text-xs font-serif"><a class="text-blue-800" href="abc">forget password?</a>
+                        </p>
+                        <p class="text-center mt-2 text-xs font-serif">not your computer? use the <a
+                                class="text-blue-800" href="abc">guest mode</a></p>
+                        <button id="btn"
+                            class="block mx-auto mt-6 text-[0.8rem] text-center font-serif border-[1.5px] h-6 w-14 bg-blue-200 rounded-[3px] border-blue-500">submit</button>
+                    </div>
+                    <div>
+                        <p class="text-center mt-14 text-xs font-serif">don't have any account? <button id="btn1"
+                                class="text-[0.8rem] text-blue-800 font-serif">create account</button></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="2block" style="display:none">
+        <div id="block2" class="bg-slate-800 grid place-items-center h-[100vh]">
+            <div class="bg-white h-[65vh] w-[65vw] rounded-xl flex">
+                <div class="max-[879px]:hidden h-auto w-[28vw] grid place-items-center">
+                    <div>
+                        <div class="text-center text-[1 rem] font-serif">Create an</div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">account</div>
+                    </div>
+                    <div>
+                        <img class="h-64 mx-auto" src="/images/img3.jpg">
+                    </div>
+                </div>
+                <div class="m-auto justify-items-center grid h-auto w-full min-[879px]:w-[30vw]">
+                    <div class="text-center">
+                        <div class="block min-[879px]:hidden mb-4">
+                            <div class="text-center text-[1 rem] font-serif">Create an</div>
+                            <div class="text-center text-[1.5rem] font-serif text-blue-500 ">account</div>
+                        </div>
+                        <input id="email"
+                            class="border-blue-500 border-[2px] rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="enter email id" type="email">
+                        <p class="text-center min-[879px]:text-left text-xs font-serif mb-2"><a class="text-blue-800" href="abc">forget
+                                email?</a>
+                        </p>
+                        <input id="epass"
+                            class="border-blue-500 border-[2px] rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center text-red-700 font-light"
+                            placeholder="enter password" type="password">
+                        <p class="text-center min-[879px]:text-left text-xs font-serif"><a class="text-blue-800" href="abc">forget password?</a>
+                        </p>
+                        <button id="btn2"
+                            class="block mx-auto mt-12 text-[0.8rem] text-center font-serif border-[1.5px] h-6 w-14 bg-blue-200 rounded-[3px] border-blue-500">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="3block" style="display:none">
+        <div id="block3" class="bg-slate-800 grid place-items-center h-[100vh]">
+            <div class="bg-white h-[65vh] w-[65vw] rounded-xl flex">
+                <div class=" max-[879px]:hidden h-auto w-[28vw] grid place-items-center">
+                    <div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Create Profile</div>
+                        <div class="text-center text-[1 rem] font-serif">create username and password</div>
+                    </div>
+                    <div>
+                        <img class="h-64 mx-auto" src="/images/img2.jpg">
+                    </div>
+                </div>
+                <div class="m-auto justify-items-center grid h-auto w-full min-[879px]:w-[30vw]">
+                    <div class="text-center">
+                        <div class="block min-[879px]:hidden mb-4">
+                            <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Create Profile</div>
+                            <div class="text-center text-[1 rem] font-serif">create username and password</div>
+                        </div>
+                        <input id="newuser"
+                            class="border-blue-500 border-[2px] mb-2 rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="create an username" type="text">
+                        <input id="pass1"
+                            class="border-blue-500 border-[2px] mb-2 text-red-700 rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="create password" type="password">
+                        <input id="pass2"
+                            class="border-blue-500 border-[2px] mb-2 text-red-700 rounded-[3px] h-10 w-52 min-[879px]:w-[17rem] text-center font-light"
+                            placeholder="re-enter password" type="password">
+                        <p id="msg" style="display:none;" class="text-center mt-2  mx-auto text-xs font-serif">Password
+                            Matched</p>
+                        <button style="display:block;" id="mybutton"
+                            class=" mx-auto mt-2 text-[0.8rem] text-center font-serif border-[1.5px] h-6 w-14 bg-pink-400 rounded-[3px] border-blue-500">done</button>
+                        <button style="display:none;" id="btn3"
+                            class=" mx-auto mt-4 text-[0.8rem] text-center font-serif border-[1.5px] h-6 w-14 bg-blue-200 rounded-[3px] border-blue-500">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="4block" style="display:none">
+        <div id="block4" class="bg-slate-800 grid place-items-center h-[100vh]">
+            <div class="bg-white h-[65vh] w-[65vw] rounded-xl flex">
+                <div class="max-[879px]:hidden h-auto w-[28vw] grid place-items-center">
+                    <div>
+                        <div class="text-center text-[1 rem] font-serif">your account is</div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Created</div>
+                    </div>
+                    <div>
+                        <img class="h-64 mx-auto" src="/images/img1.jpg">
+                    </div>
+                </div>
+                <div class="m-auto justify-items-center grid h-auto w-full min-[879px]:w-[30vw]">
+                    <div class="text-center">
+                        <div class="block min-[879px]:hidden mb-4">
+                            <div class="text-center text-[1 rem] font-serif">your account is</div>
+                            <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Created</div>
+                        </div>
+                        <p class="text-center mb-4 text-sm font-serif">use the created username and password to login
+                        </p>
+                        <button id="btn4"
+                            class="block mx-auto text-[0.8rem] text-center font-serif border-[1.5px] h-12 w-14 bg-blue-200 rounded-[3px] border-blue-500">go
+                            to sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="5block" style="display:none">
+        <div id="block5" class="bg-slate-800 grid place-items-center h-[100vh]">
+            <div class="bg-white h-[65vh] w-[65vw] rounded-xl flex">
+                <div class="max-[879px]:hidden h-auto w-[28vw] grid place-items-center">
+                    <div>
+                        <div class="text-center text-[1 rem] font-serif">Login</div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Successful</div>
+                    </div>
+                    <div>
+                        <img class="h-64 mx-auto" src="/images/img.jpg">
+                    </div>
+                </div>
+                <div class="m-auto justify-items-center grid h-auto w-full min-[879px]:w-[30vw]">
+                    <div class="block min-[879px]:hidden mb-4">
+                        <div class="text-center text-[1 rem] font-serif">Login</div>
+                        <div class="text-center text-[1.5rem] font-serif text-blue-500 ">Successful</div>
+                    </div>
+                    <div class="m-auto h-27vh min-[581px]:h-[25vh] w-[25vw] border-2 border-blue-600 rounded-xl">
+                        <div class="h-full w-full">
+                            <div class="m-auto">
+                                <div id="profile" class="text-center mt-4 text-[0.8rem] font-serif text-blue-800 "></div>
+                                <div class="text-center text-[0.7rem] font-serif">your account is</div>
+                                <div class="text-center text-[1rem] font-serif text-blue-500 ">Successfully created
+                                </div>
+                                <div class="text-center mt-4 text-[0.7rem] font-serif">project created by MR.Pranav Borkar</div>
+                                <div class="text-center mt-1 text-[0.7rem] font-serif">contact:<a class="text-blue-800" href="https://www.linkdin.com/in/pranav-borkar-a14912279">linkdin</a></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+
+</html>
